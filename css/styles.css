@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Viaoda Libre','Monotype Garamond', sans-serif;
+    font-family: 'Viaoda Round','Monotype Garamond', sans-serif;
 }
 
 /* Header */
@@ -40,7 +40,20 @@ main {
 }
 
 main section {
-    margin: 3rem 0 0 0;
+    margin: 3rem 3rem 0 0;
+}
+
+main #aboutMe {
+    display: flex;
+    justify-content: center;
+}
+
+main #aboutMe a {
+    text-decoration: none;
+    background-color: SlateGray;
+    padding: 0.5rem;
+    color: white;
+
 }
 
 main h2 {
@@ -74,10 +87,15 @@ footer {
     align-items: center;
 }
 
-footer img {
+footer i {
     height: auto;
     width: auto;
     max-height: 50px;
     max-width: 50px;
     padding: 0 0 0 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
