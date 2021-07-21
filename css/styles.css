@@ -1,101 +1,108 @@
-/* General */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-}
-
 body {
-    font-family: 'Viaoda Round','Monotype Garamond', sans-serif;
+  font-family: main-font;
 }
-
-/* Header */
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 header .container {
-    display: flex;
-    justify-content: center;
-    background-color: Linen;
-    padding: 2rem 0 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: Linen;
+  padding: 2rem 0 2rem 0;
 }
 
 header .title {
-    background-color: AntiqueWhite;
+  background-color: AntiqueWhite;
 }
 
-h1 {
-    font-size: 2.5rem;
+header h1 {
+  font-size: 2.5rem;
 }
-
-/* Main */
 
 main {
-    margin: 0 15% 0 15%;
+  margin: 0 15% 0 15%;
 }
 
 main section {
-    margin: 3rem 3rem 0 0;
+  margin: 3rem 3rem 0 0;
 }
 
 main #aboutMe {
-    display: flex;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main #aboutMe a {
-    text-decoration: none;
-    background-color: SlateGray;
-    padding: 0.5rem;
-    color: white;
-
+  text-decoration: none;
+  background-color: SlateGray;
+  padding: 0.5rem;
+  color: white;
 }
 
 main h2 {
-    background-color: AntiqueWhite;
-    font-size: 1.5rem;
+  background-color: AntiqueWhite;
+  font-size: 1.5rem;
 }
 
 main ul {
-    margin: 1rem 0 0 3rem;
+  margin: 1rem 0 0 3rem;
 }
 
 main li {
-    margin: 0.5rem 0 0 0;
+  margin: 0.5rem 0 0 0;
 }
 
 #work-history ul,
 #education-history ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-/* Footer */
-
 footer {
-    background-color:SlateGray;
-    color: white;
-    display: flex;
-    height: 50px;
-    margin: 5rem 0 0 0;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
+  background-color: SlateGray;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin: 5rem 0 0 0;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer i {
-    height: auto;
-    width: auto;
-    max-height: 50px;
-    max-width: 50px;
-    padding: 0 0 0 1rem;
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 0 0 0 1rem;
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
+/*# sourceMappingURL=styles.css.map */
